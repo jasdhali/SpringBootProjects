@@ -1,0 +1,89 @@
+{
+	"content": [
+		{
+			"id": 1,
+			"firstName": "Baris",
+			"lastName": "Algun",
+			"gender": "M"
+		},
+		{
+			"id": 2,
+			"firstName": "Cristiano",
+			"lastName": "Ronaldo",
+			"gender": "M"
+		},
+		{
+			"id": 3,
+			"firstName": "Maria",
+			"lastName": "Sharapova",
+			"gender": "F"
+		},
+		{
+			"id": 4,
+			"firstName": "Virginia",
+			"lastName": "Woolf",
+			"gender": "F"
+		},
+		{
+			"id": 5,
+			"firstName": "Orhan",
+			"lastName": "Pamuk",
+			"gender": "M"
+		},
+		{
+			"id": 6,
+			"firstName": "Stephen",
+			"lastName": "Curry",
+			"gender": "M"
+		},
+		{
+			"id": 7,
+			"firstName": "Lebron",
+			"lastName": "James",
+			"gender": "M"
+		},
+		{
+			"id": 8,
+			"firstName": "Marie",
+			"lastName": "Curie",
+			"gender": "F"
+		},
+		{
+			"id": 9,
+			"firstName": "Baris",
+			"lastName": "Algun",
+			"gender": "M"
+		},
+		{
+			"id": 10,
+			"firstName": "Cristiano",
+			"lastName": "Ronaldo",
+			"gender": "M"
+		}
+	],
+	"pageable": {
+		"pageNumber": 0,
+		"pageSize": 10,
+		"sort": {
+			"sorted": false,
+			"unsorted": true,
+			"empty": true
+		},
+		"offset": 0,
+		"paged": true,
+		"unpaged": false
+	},
+	"totalPages": 4,
+	"totalElements": 32,
+	"last": false,
+	"size": 10,
+	"number": 0,
+	"sort": {
+		"sorted": false,
+		"unsorted": true,
+		"empty": true
+	},
+	"first": true,
+	"numberOfElements": 10,
+	"empty": false
+}
