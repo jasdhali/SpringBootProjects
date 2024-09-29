@@ -4,6 +4,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.example.pagination.dto.StudentDTO;
 import com.example.pagination.entity.Student;
 import com.example.pagination.repository.StudentRepository;
 
@@ -21,4 +22,11 @@ public class StudentService {
 	public Page<Student> getAllStudents(Pageable pageable) {
 		return repository.findAll(pageable);
 	}
+	
+	public Student createStudent(StudentDTO dto) {
+		Student student = StudentDTO.to(dto);
+		return repository.save(student);
+	}
+	
+	
 }
