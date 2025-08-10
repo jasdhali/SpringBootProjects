@@ -15,7 +15,7 @@ public class SpringBootPaginationExampleApplication {
 		SpringApplication.run(SpringBootPaginationExampleApplication.class, args);
 	}
 	
-	@Bean
+	//@Bean
 	 public CommandLineRunner loadData(StudentRepository StudentRepository){
 	  return args->{
 	   Student student=new Student();

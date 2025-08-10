@@ -1,10 +1,10 @@
-package com.example.pagination;
+package com.example.demo.SpringWebFluxSimple;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootPaginationExampleApplicationTests {
+class SpringWebFluxSimpleApplicationTests {
 
 	@Test
 	void contextLoads() {
